@@ -92,10 +92,10 @@ easily repeat a find command."
 
 
 ;;Инициализация менеджера пакетов
-(load-file "~//.emacs.d/local/UsePackageInit.el")
+(load-file "~//.emacs.d/.emacs.d.local/UsePackageInit.el")
 
 ;;C-mode
-(load-file "~//.emacs.d/local/CcMode.el")
+(load-file "~//.emacs.d/.emacs.d.local/CcMode.el")
 
 
 (use-package modern-cpp-font-lock
@@ -119,61 +119,61 @@ easily repeat a find command."
 ;;  )
 
 ;;Настройка внешнего вида редактора 
-(load-file "~//.emacs.d/local/faceemacs.el")
+(load-file "~//.emacs.d/.emacs.d.local/faceemacs.el")
 
 ;;Сохранение сеанса
-(load-file "~//.emacs.d/local/savesession.el")
+(load-file "~//.emacs.d/.emacs.d.local/savesession.el")
 
 ;;Поиск парной скобки и их подсветка A-q
-(load-file "~//.emacs.d/local/matchparen.el")
+(load-file "~//.emacs.d/.emacs.d.local/matchparen.el")
 
 ;;Перемещение между окнами
 ;;Перемещение по окнам при помощи клавиш  <S-up>, <S-down>, <S-left>, <S-right>
-(load-file "~//.emacs.d/local/window-number.el")
+(load-file "~//.emacs.d/.emacs.d.local/window-number.el")
 
 ;;Управляем размером окна
 ;;изменять размеры окна, по умолчанию, можно мышкой, для этого нужно убирать руку от клавиатуры. 
 ;;а это удобно? я тоже так думаю. добавлем следущее в .emacs.
 ;;как видно из keymap' ом, 'ctrl + alt + \arrow keys\' резайзит окна. 
-(load-file "~//.emacs.d/local/resize-window.el")
+(load-file "~//.emacs.d/.emacs.d.local/resize-window.el")
 
 ;; Резервные копии
-(load-file "~//.emacs.d/local/backups.el")
+(load-file "~//.emacs.d/.emacs.d.local/backups.el")
 
 ;; Автозаполнение
-;;(load-file "~//.emacs.d/local/auto-fill.el")
+;;(load-file "~//.emacs.d/.emacs.d.local/auto-fill.el")
 
 ;; grep  и compilation в новом окне
-(load-file "~//.emacs.d/local/SpecialDisplayBufferNames.el")
+(load-file "~//.emacs.d/.emacs.d.local/SpecialDisplayBufferNames.el")
 
 ;; Set up code completion with company
- (load-file "~//.emacs.d/local/CompanyCodeCompletion.el")
+ (load-file "~//.emacs.d/.emacs.d.local/CompanyCodeCompletion.el")
 
 ;;YouCompleteMe For Emacs
- (load-file "~//.emacs.d/local/YouCompleteMeForEmacs.el")
+ (load-file "~//.emacs.d/.emacs.d.local/YouCompleteMeForEmacs.el")
 
 ;;Rtags For Emacs
- (load-file "~//.emacs.d/local/RtagsForEmacs.el")
+ (load-file "~//.emacs.d/.emacs.d.local/RtagsForEmacs.el")
 
 ;;yasnippet
- (load-file "~//.emacs.d/local/yasnippet-package.el")
+ (load-file "~//.emacs.d/.emacs.d.local/yasnippet-package.el")
 
 ;;Браузер
-;;(load-file "~//.emacs.d/local/W3m.el")
+;;(load-file "~//.emacs.d/.emacs.d.local/W3m.el")
 
 ;;Словарь
-;;(load-file "~//.emacs.d/local/DicLookupW3m.el")
+;;(load-file "~//.emacs.d/.emacs.d.local/DicLookupW3m.el")
 
 ;;Словарь
-(load-file "~//.emacs.d/local/Sdcv.el")
+(load-file "~//.emacs.d/.emacs.d.local/Sdcv.el")
 
 ;;Словарь
  (require 'google-translate)
  (require 'google-translate-default-ui)
- (load-file "~//.emacs.d/local/GoogleTranslate.el")
+ (load-file "~//.emacs.d/.emacs.d.local/GoogleTranslate.el")
 
 ;;asterisk-dialplan
- (load-file "~//.emacs.d/local/asterisk-dialplan.el")
+ (load-file "~//.emacs.d/.emacs.d.local/asterisk-dialplan.el")
 
 
 
@@ -185,18 +185,18 @@ easily repeat a find command."
  (server-start)
 
 ;;Org-mode
- (load-file "~/.emacs.d/local/OrgMode.el")
+ (load-file "~/.emacs.d/.emacs.d.local/OrgMode.el")
 
 ;;Заметки  C-x rjn
- (load-file "~/.emacs.d/local/Notes.el")
+ (load-file "~/.emacs.d/.emacs.d.local/Notes.el")
 
 ;;Flycheck - flycheck-plantuml
- (load-file "~/.emacs.d/local/FlycheckPlantuml.el")
+ (load-file "~/.emacs.d/.emacs.d.local/FlycheckPlantuml.el")
 
 ;;Javascript
 (load-file "~/.emacs.d/emacs-js/emacs-js.el")
-;;(load-file "~/.emacs.d/local/javascript_v2.el")
-;;(load-file "~/.emacs.d/local/javascript.el")
+;;(load-file "~/.emacs.d/.emacs.d.local/javascript_v2.el")
+;;(load-file "~/.emacs.d/.emacs.d.local/javascript.el")
 
 (provide '.emacs)
 ;;; .emacs ends here
